@@ -4,12 +4,17 @@
 
 typedef double Money;
 //string val;
-class Cpp_primer {
+class Cpp_primer
+{
 public:
-    Money balance() {return bal;}
+    Money balance()
+    {
+        return bal;
+    }
     char *test;
-    Cpp_primer () {
-     //   test = "ksjdhlfkgja";
+    Cpp_primer ()
+    {
+        //   test = "ksjdhlfkgja";
     }
 private:
     static Money m1;
