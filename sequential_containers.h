@@ -1,0 +1,9 @@
+#ifndef SEQUENTIAL_CONTAINERS_H_INCLUDED
+#define SEQUENTIAL_CONTAINERS_H_INCLUDED
+
+int capacity();
+int erase1();
+
+
+
+#endif // SEQUENTIAL_CONTAINERS_H_INCLUDED

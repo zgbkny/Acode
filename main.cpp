@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
+#include "sequential_containers.h"
 
 #include "Cpp_primer.h"
 #include "linux_test.h"
@@ -131,6 +132,8 @@ int main()
  //   cout << setprecision(9) << k;
 //   vector<string> vi = testtest();
     //  cout << "Hello world!"  << endl << &vi << endl;
-    test_timeval();
+//    test_timeval();
+    cout << "test";
+    erase1();
     return 0;
 }

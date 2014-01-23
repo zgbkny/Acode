@@ -33,7 +33,25 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Cpp_primer.h" />
+		<Unit filename="c_array.h" />
+		<Unit filename="c_n_problems.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c_n_problems.h" />
+		<Unit filename="c_n_problems_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="linux_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="linux_test.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="ms_game_problems.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ms_game_problems.h" />
+		<Unit filename="sequential_containers.cpp" />
+		<Unit filename="sequential_containers.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
