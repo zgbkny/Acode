@@ -3,6 +3,7 @@
 
 int capacity();
 int erase1();
+int stack_test();
 
 
 

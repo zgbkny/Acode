@@ -37,7 +37,7 @@
 	"c_n_problems.h"
 	<stdio.h>
 
-1390479017 source:f:\data\codeblocks\acode\main.cpp
+1390484746 source:f:\data\codeblocks\acode\main.cpp
 	<iostream>
 	<vector>
 	<iomanip>
@@ -55,11 +55,12 @@
 1390406347 source:f:\data\codeblocks\acode\linux_test.c
 	"linux_test.h"
 
-1390479790 source:f:\data\codeblocks\acode\sequential_containers.cpp
+1390483111 source:f:\data\codeblocks\acode\sequential_containers.cpp
 	"sequential_containers.h"
 	<algorithm>
 	<string>
 	<list>
+	<forward_list>
 	<vector>
 	<iostream>
 

@@ -133,7 +133,10 @@ int main()
 //   vector<string> vi = testtest();
     //  cout << "Hello world!"  << endl << &vi << endl;
 //    test_timeval();
+
     cout << "test";
-    erase1();
+    stack_test();
+ //   capacity();
+ //   erase1();
     return 0;
 }

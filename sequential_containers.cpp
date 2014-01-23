@@ -8,11 +8,23 @@ using std::string;
 #include <list>
 using std::list;
 
+#include <forward_list>
+using std::forward_list;
+
 #include <vector>
 using std::vector;
 
+#include <cstddef>
+using std::size_t;
+
+#include <deque>
+using std::deque;
+
+#include <stack>
+using std::stack;
+
 #include <iostream>
-using std::cin; using std::cout; using std::endl;
+using std::cout; using std::cerr; using std::cin; using std::endl;
 
 int capacity()
 {
@@ -182,3 +194,63 @@ int find_ops()
 
 	return 0;
 }
+int find_str()
+{
+    string name("AnnaBelle");
+    auto pos1 = name.find("Anna"); // pos1 == 0
+    cout << pos1 ;
+    string lowercase("annabelle");
+    pos1 = lowercase.find("Anna");   // pos1 == npos
+    cout << " " << pos1 << endl;
+    return 0;
+}
+
+void printVec(const vector<int> &vi)
+{
+	// print the vector's elements
+	auto iter = vi.begin();
+	while (iter != vi.end())
+		cout << *iter++ << endl;
+}
+
+int refreshIter()
+{
+	// silly loop to remove even-valued elements
+	// and insert a duplicate of odd-valued elements
+	vector<int> vi = {0,1,2,3,4,5,6,7,8,9};
+	printVec(vi);
+
+	// we call begin, not cbegin because we're changing vi
+	auto iter = vi.begin();
+	while (iter != vi.end()) {
+		if (*iter % 2) {    // if the element is odd
+			iter = vi.insert(iter, *iter);  // duplicate  it
+			iter += 2; // advance past this element and the new one
+		} else
+			iter = vi.erase(iter);          // remove even elements
+			// don't advance the iterator;
+			// iter denotes the element after the one we erased
+	}
+	printVec(vi);
+
+	return 0;
+}
+int stack_test()
+{
+    stack<int> intStack;  // empty stack
+
+	// fill up the stack
+	for (size_t ix = 0; ix != 10; ++ix)
+    	intStack.push(ix);   // intStack holds 0 . . . 9 inclusive
+
+	// while there are still values in intStack
+	while (!intStack.empty()) {
+    	int value = intStack.top();
+    	// code that uses value
+		cout << value << endl;
+    	intStack.pop(); // pop the top element, and repeat
+	}
+
+	return 0;
+}
+
