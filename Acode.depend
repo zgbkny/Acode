@@ -1,28 +1,29 @@
 # depslib dependency file v1.0
-1390110597 source:/home/ww/code/codeblocks/Acode/main.cpp
+1390555191 source:/home/ww/code/codeblocks/Acode/main.cpp
 	<iostream>
 	<vector>
 	<iomanip>
+	"sequential_containers.h"
 	"Cpp_primer.h"
 	"linux_test.h"
+	"csapp_show_bytes.h"
 
-1390110597 /home/ww/code/codeblocks/Acode/Cpp_primer.h
+1390550378 /home/ww/code/codeblocks/Acode/Cpp_primer.h
 	<string>
 
-1390113137 source:/home/ww/code/codeblocks/Acode/linux_test.c
+1390550372 source:/home/ww/code/codeblocks/Acode/linux_test.c
 	"linux_test.h"
-	<sys/time.h>
 
-1390112522 /home/ww/code/codeblocks/Acode/linux_test.h
+1390550368 /home/ww/code/codeblocks/Acode/linux_test.h
 
-1390113546 source:/home/ww/code/codeblocks/Acode/c_n_problems.c
+1390550374 source:/home/ww/code/codeblocks/Acode/c_n_problems.c
 	<sys/time.h>
 	"c_array.h"
 	"c_n_problems.h"
 
-1390113483 /home/ww/code/codeblocks/Acode/c_array.h
+1390550379 /home/ww/code/codeblocks/Acode/c_array.h
 
-1390114023 /home/ww/code/codeblocks/Acode/c_n_problems.h
+1390550376 /home/ww/code/codeblocks/Acode/c_n_problems.h
 
 1390113546 source:f:\data\codeblocks\acode\c_n_problems.c
 	<sys/time.h>
@@ -65,4 +66,29 @@
 	<iostream>
 
 1390479611 f:\data\codeblocks\acode\sequential_containers.h
+
+1390550309 source:/home/ww/code/codeblocks/Acode/ms_game_problems.c
+
+1390550370 source:/home/ww/code/codeblocks/Acode/c_n_problems_test.c
+	"c_n_problems.h"
+	<stdio.h>
+
+1390555006 source:/home/ww/code/codeblocks/Acode/csapp_show_bytes.c
+	<stdio.h>
+
+1390550309 /home/ww/code/codeblocks/Acode/sequential_containers.h
+
+1390555164 /home/ww/code/codeblocks/Acode/csapp_show_bytes.h
+
+1390550381 source:/home/ww/code/codeblocks/Acode/sequential_containers.cpp
+	"sequential_containers.h"
+	<algorithm>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<cstddef>
+	<deque>
+	<stack>
+	<iostream>
 

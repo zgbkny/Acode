@@ -7,18 +7,16 @@ typedef double Money;
 class Cpp_primer
 {
 public:
-    Money balance()
-    {
-        return bal;
-    }
-    char *test;
-    Cpp_primer ()
-    {
-        //   test = "ksjdhlfkgja";
-    }
+        Money balance() {
+                return bal;
+        }
+        char *test;
+        Cpp_primer () {
+                //   test = "ksjdhlfkgja";
+        }
 private:
-    static Money m1;
-    Money bal;
+        static Money m1;
+        Money bal;
 
 
 };

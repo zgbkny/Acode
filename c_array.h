@@ -3,10 +3,10 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-struct c_int_array {
-    int *arr;
-    int size;
-};
+        struct c_int_array {
+                int *arr;
+                int size;
+        };
 
 
 #ifdef __cplusplus
